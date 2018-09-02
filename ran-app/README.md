@@ -17,7 +17,7 @@ You can now [deploy](https://www.prisma.io/docs/reference/cli-command-reference/
 cd ran-app
 # Install the packages 
 yarn && yarn setup
-# Run the sever 
+# Run the app 
 yarn dev
 ```
 If you are not using Yarn, just run npm install && npm run setup instead of yarn && yarn setup
