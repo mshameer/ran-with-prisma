@@ -2,7 +2,12 @@
 
 ## Commands
 
-This is [RAN](https://www.rantoolkit.com/) application completely refactored with Prisma. The prisma server is also included so that you can run the complete application in the local and then deploy to any where you wish 
+This [RAN](https://www.rantoolkit.com/) application is completely refactored to use the GraphQL server Prisma. The prisma server is also included so that you can run the complete application in the local and then deploy to any where you wish 
+
+## Get Started 
+Clone the repo to download the code and go to the prisam-server and ran-app folder. Install and start the server and ran-app separately. 
+  - How to use [Prisma server](https://github.com/mshameer/ran-with-prisma/tree/master/prisma-server)
+  - How to use [RAN App](https://github.com/mshameer/ran-with-prisma/tree/master/ran-app)
 
 ## Documentation
 

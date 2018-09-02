@@ -1,11 +1,19 @@
 # Prisma Server
 
-This server is based on the example demonstrated in the prisma repo for how to use the simple and declarative [GraphQL Shield](https://github.com/maticzav/graphql-shield) library for authorization by protecting mutations and queries from unauthorized access.
+This server is based on the example demonstrated in the prisma for how to use the simple and declarative [GraphQL Shield](https://github.com/maticzav/graphql-shield) library for authorization by protecting mutations and queries from unauthorized access.
 This can be used as a server for the RAN Application 
 ## Get Started
 
 ### 1. Install the Prisma CLI
 The `prisma` cli is the core component of your development workflow. `prisma` should be installed as a global dependency, you can install this with `npm install -g prisma`
+
+### 2. Install dependencies
+Navigate into the prisma-server folder and install the NPM dependencies
+
+```sh
+cd prisma-server
+yarn install
+```
 
 ### 3. Deploy the Prisma database service
 
