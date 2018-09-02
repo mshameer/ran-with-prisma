@@ -1,0 +1,8 @@
+query posts($first: Int!, $skip: Int!) {
+  posts(orderBy: createdAt_DESC, first: $first, skip: $skip) {
+    id
+    title
+    votes
+    createdAt
+  }
+}

@@ -1,0 +1,14 @@
+mutation {
+  user: createRole(data: { name: USER }) {
+    id
+  }
+
+  admin: createRole(data: { name: ADMIN }) {
+    id
+  }
+
+  editor: createRole(data: { name: EDITOR }) {
+    id
+  }
+
+}

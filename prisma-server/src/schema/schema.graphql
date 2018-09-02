@@ -1,0 +1,27 @@
+# import Post, PostWhereInput, PostOrderByInput, PostCreateInput, User, Role, UserRole AvailableRoles from "../generated/prisma.graphql"
+
+type Query {
+  posts(
+    where: PostWhereInput
+    orderBy: PostOrderByInput
+    skip: Int
+    after: String
+    before: String
+    first: Int
+    last: Int
+  ): [Post!]!
+}
+
+type Mutation {
+  createPost(title: String!, url: String!): Post!
+  updatePost(id: ID!, title: String!, url: String!): Post!
+  signupUser(firstName: String! lastName: String!, email: String!, password: String!): AuthPayload!
+  signinUser(email: String!, password: String!): AuthPayload!
+  createRole(name: AvailableRoles!): Role!
+  assignRole(role: AvailableRoles!, assigneeEmail: String!): UserRole!
+}
+
+type AuthPayload {
+  token: String!,
+  user: User!
+}

@@ -1,0 +1,39 @@
+type User {
+  id: ID! @unique
+  email: String! @unique
+  password: String!
+  createdAt: DateTime!
+  firstName: String
+  lastName: String
+  roles: [UserRole!]!
+  posts: [Post!]!
+}
+
+type UserRole {
+  id: ID! @unique
+  user: User!
+  role: Role!
+}
+
+type Role {
+  id: ID! @unique
+  name: AvailableRoles! @unique
+  users: [UserRole!]!
+}
+
+enum AvailableRoles {
+  USER
+  AUTHOR
+  EDITOR
+  ADMIN
+}
+
+type Post {
+  id: ID! @unique
+  title: String!
+  content: String
+  createdAt: DateTime!
+  user: User!
+  url: String!
+  votes: Int @default(value: 0)
+}
