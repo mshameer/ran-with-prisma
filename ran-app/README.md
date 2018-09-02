@@ -21,7 +21,7 @@ After everything is finished, run yarn dev (or npm run dev)
 
 ## Links
 
-[RAN @ Github](https://github.com/Sly777/ran)
-[RAN @ Gitter](https://gitter.im/ran-boilerplate/Lobby)
-[RAN License](https://github.com/Sly777/ran/blob/master/LICENSE.md)
-[RAN Code of Conduct](https://github.com/Sly777/ran/blob/master/CODE_OF_CONDUCT.md)
+ - [RAN @ Github](https://github.com/Sly777/ran)
+ - [RAN @ Gitter](https://gitter.im/ran-boilerplate/Lobby)
+ - [RAN License](https://github.com/Sly777/ran/blob/master/LICENSE.md)
+ - [RAN Code of Conduct](https://github.com/Sly777/ran/blob/master/CODE_OF_CONDUCT.md)
